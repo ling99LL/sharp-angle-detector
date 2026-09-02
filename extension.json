@@ -1,0 +1,70 @@
+{
+	"name": "sharp-angle-detector",
+	"uuid": "8bea93b8d4bf47c1a2087d0e3ba25fde",
+	"displayName": "锐角检测",
+	"description": "扫描所有信号层：导线检测锐角和直角，覆铜及填充区域仅检测锐角，并高亮显示检测结果。",
+	"version": "1.0.3",
+	"publisher": "鸢枭",
+	"engines": {
+		"eda": "^3.2.0"
+	},
+	"license": "Apache-2.0",
+	"repository": {
+		"type": "extension-store",
+		"url": ""
+	},
+	"categories": "PCB",
+	"keywords": [
+		"PCB",
+		"DRC",
+		"锐角",
+		"直角",
+		"覆铜"
+	],
+	"images": {
+		"logo": "./images/logo.png"
+	},
+	"homepage": "https://github.com/ling99LL/sharp-angle-detector",
+	"bugs": "https://github.com/ling99LL/sharp-angle-detector/issues",
+	"activationEvents": {},
+	"entry": "./dist/index",
+	"dependentExtensions": {},
+	"headerMenus": {
+		"home": [
+			{
+				"id": "sharp-angle-detector-home",
+				"title": "锐角检测",
+				"menuItems": [
+					{
+						"id": "start-home",
+						"title": "开始检测",
+						"registerFn": "startSharpAngleDetection"
+					},
+					{
+						"id": "clear-home",
+						"title": "清除高亮",
+						"registerFn": "clearSharpAngleHighlights"
+					}
+				]
+			}
+		],
+		"pcb": [
+			{
+				"id": "sharp-angle-detector-pcb",
+				"title": "锐角检测",
+				"menuItems": [
+					{
+						"id": "start-pcb",
+						"title": "开始检测",
+						"registerFn": "startSharpAngleDetection"
+					},
+					{
+						"id": "clear-pcb",
+						"title": "清除高亮",
+						"registerFn": "clearSharpAngleHighlights"
+					}
+				]
+			}
+		]
+	}
+}

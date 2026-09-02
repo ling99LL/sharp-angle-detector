@@ -3,7 +3,7 @@
 	"uuid": "8bea93b8d4bf47c1a2087d0e3ba25fde",
 	"displayName": "锐角检测",
 	"description": "扫描所有信号层：导线检测锐角和直角，覆铜及填充区域仅检测锐角，并高亮显示检测结果。",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"publisher": "鸢枭",
 	"engines": {
 		"eda": "^3.2.0"

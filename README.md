@@ -29,7 +29,7 @@ npm run lint
 npm run build
 ```
 
-构建产物位于 `build/dist/sharp-angle-detector_v1.0.3.eext`。在嘉立创EDA专业版中通过“高级 -> 扩展管理器 -> 导入”加载该文件（V2 客户端使用“设置 -> 扩展 -> 扩展管理器 -> 导入扩展”）。
+构建产物位于 `build/dist/sharp-angle-detector_v1.0.4.eext`。在嘉立创EDA专业版中通过“高级 -> 扩展管理器 -> 导入”加载该文件（V2 客户端使用“设置 -> 扩展 -> 扩展管理器 -> 导入扩展”）。
 
 ## 使用
 
